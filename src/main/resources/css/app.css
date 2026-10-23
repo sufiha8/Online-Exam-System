@@ -1,0 +1,322 @@
+
+/* =====================================
+   ONLINE EXAM SYSTEM - GLOBAL THEME
+   ===================================== */
+
+.root {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-font-size: 14px;
+    -fx-background-color: #f3f6fc;
+}
+
+/* Main headings */
+.label {
+    -fx-text-fill: #263650;
+}
+
+.page-title {
+    -fx-font-size: 27px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #173b73;
+}
+
+.section-title {
+    -fx-font-size: 17px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #234a80;
+}
+
+.muted-label {
+    -fx-text-fill: #64748b;
+}
+
+/* Input fields */
+.text-field,
+.password-field,
+.text-area,
+.combo-box,
+.choice-box,
+.date-picker {
+    -fx-background-color: white;
+    -fx-border-color: #d6deeb;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 10px 12px;
+    -fx-text-fill: #1e293b;
+    -fx-prompt-text-fill: #94a3b8;
+}
+
+.text-field:focused,
+.password-field:focused,
+.text-area:focused,
+.combo-box:focused {
+    -fx-border-color: #3478f6;
+    -fx-border-width: 1.5px;
+}
+
+/* Buttons */
+.button {
+    -fx-background-color: #e6edf8;
+    -fx-text-fill: #24456f;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 18px;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #d6e4f8;
+}
+
+.button:pressed {
+    -fx-opacity: 0.85;
+}
+
+/* Primary action buttons */
+.primary-button {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: white;
+}
+
+.primary-button:hover {
+    -fx-background-color: #1d4ed8;
+}
+
+/* Destructive / logout buttons */
+.danger-button {
+    -fx-background-color: #fee2e2;
+    -fx-text-fill: #b91c1c;
+}
+
+.danger-button:hover {
+    -fx-background-color: #fecaca;
+}
+
+/* Lists */
+.list-view {
+    -fx-background-color: white;
+    -fx-border-color: #dce4ef;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-padding: 5px;
+}
+
+.list-cell {
+    -fx-padding: 12px;
+    -fx-background-color: white;
+    -fx-text-fill: #263650;
+}
+
+.list-cell:filled:hover {
+    -fx-background-color: #eff6ff;
+}
+
+.list-cell:filled:selected {
+    -fx-background-color: #dbeafe;
+    -fx-text-fill: #1d4ed8;
+}
+
+/* Tables */
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #dce4ef;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-padding: 4px;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #eaf1fc;
+    -fx-background-radius: 9px 9px 0 0;
+}
+
+.table-view .column-header,
+.table-view .filler {
+    -fx-background-color: transparent;
+    -fx-size: 38px;
+}
+
+.table-view .column-header .label {
+    -fx-font-weight: bold;
+    -fx-text-fill: #254876;
+}
+
+.table-row-cell {
+    -fx-cell-size: 38px;
+    -fx-border-color: transparent transparent #edf1f7 transparent;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #dbeafe;
+}
+
+/* Separators and scroll areas */
+.separator .line {
+    -fx-border-color: #e0e7f0;
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+/* Feedback labels */
+.status-success {
+    -fx-text-fill: #15803d;
+    -fx-font-weight: bold;
+}
+
+.status-error {
+    -fx-text-fill: #b91c1c;
+    -fx-font-weight: bold;
+}
+
+/* Cards and panels */
+.card {
+    -fx-background-color: white;
+    -fx-background-radius: 14px;
+    -fx-border-color: #e0e7f0;
+    -fx-border-radius: 14px;
+    -fx-padding: 22px;
+}
+
+.dialog-pane {
+    -fx-background-color: #f8faff;
+}
+
+.dialog-pane .header-panel {
+    -fx-background-color: #eaf1fc;
+}
+
+/* Section headings */
+.section-title {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1e293b;
+}
+
+.muted-label {
+    -fx-font-size: 13px;
+    -fx-text-fill: #64748b;
+}
+
+.page-title {
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1e293b;
+}
+
+/* Main action buttons */
+.primary-button {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 16px;
+    -fx-background-radius: 7px;
+    -fx-cursor: hand;
+}
+
+.primary-button:hover {
+    -fx-background-color: #1d4ed8;
+}
+
+.secondary-button {
+    -fx-background-color: #e2e8f0;
+    -fx-text-fill: #1e293b;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 16px;
+    -fx-background-radius: 7px;
+    -fx-cursor: hand;
+}
+
+.secondary-button:hover {
+    -fx-background-color: #cbd5e1;
+}
+
+.danger-button {
+    -fx-background-color: #dc2626;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 16px;
+    -fx-background-radius: 7px;
+    -fx-cursor: hand;
+}
+
+.danger-button:hover {
+    -fx-background-color: #b91c1c;
+}
+
+/* Exam screen */
+.timer-label {
+    -fx-font-size: 17px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #dc2626;
+    -fx-padding: 10px;
+    -fx-background-color: #fee2e2;
+    -fx-background-radius: 7px;
+}
+
+.question-text {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1e293b;
+}
+
+.question-options {
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+    -fx-border-color: #e2e8f0;
+    -fx-border-radius: 10px;
+}
+
+.answer-option {
+    -fx-font-size: 15px;
+    -fx-text-fill: #334155;
+    -fx-padding: 8px;
+}
+
+/* Tables */
+.table-view {
+    -fx-background-color: white;
+    -fx-background-radius: 8px;
+    -fx-border-color: #e2e8f0;
+    -fx-border-radius: 8px;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #eff6ff;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #1e3a8a;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 5px;
+}
+
+.table-row-cell {
+    -fx-cell-size: 36px;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #dbeafe;
+}
+
+/* Text fields and form controls */
+.text-field,
+.text-area,
+.combo-box,
+.spinner {
+    -fx-background-radius: 6px;
+    -fx-border-color: #cbd5e1;
+    -fx-border-radius: 6px;
+}
+
+.text-field:focused,
+.text-area:focused,
+.combo-box:focused {
+    -fx-border-color: #2563eb;
+}
